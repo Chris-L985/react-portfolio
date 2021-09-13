@@ -26,4 +26,6 @@ const theme = createTheme({
             fontFamily: "'Bona Nova', serif",
         },
     },
-})
+});
+
+export default theme;
