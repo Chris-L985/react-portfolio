@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { useHistory, Link } from 'react-router-dom';
 import { NavInfo } from '../NavInfo';
-import * as FaIcons from 'react-icons/fa';
-import * as CgIcons from 'react-icons/cg';
-import { IconContext } from 'react-icons';
+
 import './Nav.css';
 
 const Nav = () => {

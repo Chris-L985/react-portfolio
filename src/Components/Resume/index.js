@@ -14,6 +14,9 @@ const useStyles = makeStyles((theme) => {
         },
         skillHeader: {
         },
+        proList: {
+            textDecoration: "none",
+        }
     })
 
 });
@@ -41,7 +44,7 @@ const Resume = () => {
                 alignItems="center"
                 className={classes.gridContainer}
             >
-                <Card className={classes.frontCard}>
+                <div className={classes.frontCard}>
                     <h3>Front End</h3>
                     <ul>
                         <li>HTML</li>
@@ -53,10 +56,10 @@ const Resume = () => {
                         <li>Bootstrap</li>
                         <li>Material UI</li>
                     </ul>
-                </Card>
-                <Card className={classes.backCard}>
+                </div>
+                <div className={classes.backCard}>
                     <h3>Back End</h3>
-                    <ul>
+                    <ul className={classes.proList}>
                         <li>APIs</li>
                         <li>Node.js</li>
                         <li>Express</li>
@@ -66,9 +69,10 @@ const Resume = () => {
                         <li>GraphQL</li>
                         <li>Apollo</li>
                     </ul>
-                </Card>
-                
+                </div>
             </Grid>
+            <br>
+            </br>
             <Grid
                 container 
                 direction="row"
