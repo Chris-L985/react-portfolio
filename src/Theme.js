@@ -3,15 +3,15 @@ import { createTheme } from '@material-ui/core';
 const theme = createTheme({
     fonts: {
         primary: {
-            fontFamily: "'Quicksand', sans-serif",
+            fontFamily: "'Glory', sans-serif",
             fontWeight: 600,
         },
         secondary: {
-            fontFamily: "'Quicksand', sans-serif",
+            fontFamily: "'Glory', sans-serif",
             fontWeight: 700,
         },
         tertiary: {
-            fontFamily: "'Bona Nova', serif",
+            fontFamily: "'Montserrat', sans-serif",
         },
     },
     colors: {
@@ -23,7 +23,7 @@ const theme = createTheme({
     },
     typography: {
         p: {
-            fontFamily: "'Bona Nova', serif",
+            fontFamily: "'Montserrat', sans-serif",
         },
     },
 });

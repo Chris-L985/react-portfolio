@@ -1,12 +1,19 @@
 import React from "react";
-import Nav from "../Components/Navigation";
+import Nav from "../Components/NavigationHeader";
+import Resume from "../Components/Resume";
+import Footer from "../Components/Footer";
+import "./AllPages.css";
 
-const Homepage = () => {
+const ResumePage = () => {
     return (
-        <div>
-            <h1>Resume Page</h1>
+        <div className="page-container">
+            <div className="content-container">
+                <Nav />
+                <Resume />
+            </div>
+            <Footer />
         </div>
     );
 };
 
-export default Homepage;
+export default ResumePage;

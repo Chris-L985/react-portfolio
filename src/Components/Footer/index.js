@@ -14,21 +14,21 @@ const Footer = () => {
                 width="50px"
                 src={githubLogo}
                 link="https://github.com/Chris-L985"
-                alt="image for my Github account"
+                alt="logo for my Github account"
             />
             <Image
                 height="50px"
                 width="50px"
                 src={linkedInLogo}
-                link=""
-                alt="an image link for my LinkedIn account"
+                link="https://www.linkedin.com/in/christian-lopez-883735153/"
+                alt="a logo link for my LinkedIn account"
             />
             <Image
                 height="50px"
                 width="50px"
                 src={stackOfLogo}
-                link=""
-                alt="image link to my stack overflow"
+                link="https://stackoverflow.com/"
+                alt="logo link to my stack overflow"
             />
         </div>
     );
