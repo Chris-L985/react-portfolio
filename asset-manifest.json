@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f2fdf62b.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.4395c8e7.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.4395c8e7.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.231f7ab1.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.e9b5b27d.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.e9b5b27d.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.9f257361.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.9f257361.js.map",
-    "static/js/2.89ce66b5.chunk.js": "/react-portfolio/static/js/2.89ce66b5.chunk.js",
-    "static/js/2.89ce66b5.chunk.js.map": "/react-portfolio/static/js/2.89ce66b5.chunk.js.map",
+    "static/js/2.891b5332.chunk.js": "/react-portfolio/static/js/2.891b5332.chunk.js",
+    "static/js/2.891b5332.chunk.js.map": "/react-portfolio/static/js/2.891b5332.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.f2fdf62b.chunk.css.map": "/react-portfolio/static/css/main.f2fdf62b.chunk.css.map",
-    "static/js/2.89ce66b5.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.89ce66b5.chunk.js.LICENSE.txt",
-    "static/media/Me-at-the-park.fb8488a7.jpeg": "/react-portfolio/static/media/Me-at-the-park.fb8488a7.jpeg",
+    "static/css/main.231f7ab1.chunk.css.map": "/react-portfolio/static/css/main.231f7ab1.chunk.css.map",
+    "static/js/2.891b5332.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.891b5332.chunk.js.LICENSE.txt",
+    "static/media/About.css": "/react-portfolio/static/media/Me-at-the-park.fb8488a7.jpeg",
     "static/media/digital-marketing-meeting.8c99048a.jpg": "/react-portfolio/static/media/digital-marketing-meeting.8c99048a.jpg",
     "static/media/fooder-pic.1593952f.jpg": "/react-portfolio/static/media/fooder-pic.1593952f.jpg",
     "static/media/overflow-logo.0123b8df.png": "/react-portfolio/static/media/overflow-logo.0123b8df.png",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9f257361.js",
-    "static/js/2.89ce66b5.chunk.js",
-    "static/css/main.f2fdf62b.chunk.css",
-    "static/js/main.4395c8e7.chunk.js"
+    "static/js/2.891b5332.chunk.js",
+    "static/css/main.231f7ab1.chunk.css",
+    "static/js/main.e9b5b27d.chunk.js"
   ]
 }
