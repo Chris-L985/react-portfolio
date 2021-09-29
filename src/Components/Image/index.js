@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+// image component
 const Image = ({ link, ...rest }) => {
     if(link) {
         return (

@@ -4,29 +4,25 @@ import emailjs from 'emailjs-com';
 
 const useStyles = makeStyles((theme) =>
   createStyles({
-    container: {
-        borderRadius: "5px",
-        padding: "20px",
-        display: "flex",
-        justifyContent: "center",
-    },
     sendButton: {
-        width: "100%",
-        border: `2px solid ${theme.colors.quinary}`,
-        color: theme.colors.quinary,
-        padding: "14px 20px",
-        margin: "8px 0",
-        marginTop: "35px",
+        justifyContent: "center",
+        width: "50%",
+        border: `2px solid ${theme.colors.tertiary}`,
+        color: theme.colors.secondary,
+        margin: "10px 0",
+        marginTop: "25px",
+        padding: "15px 30px",
         borderRadius: "4px",
     },
 
     textField: {
         width: "100%",
+        height: "80px",
         padding: "12px 20px",
         margin: "8px 0",
         marginTop: "35px",
-        border: `4px solid ${theme.colors.secondary}`,
-        borderRadius: "4px",
+        border: `4px solid ${theme.colors.tertiary}`,
+        borderRadius: "6px",
         boxSizing: "border-box",
         justifyContent: "center",
     },
@@ -44,7 +40,7 @@ const ContactForm = () => {
             "gmail",
             "template_1j5wdec",
             e.target,
-            "user_1AV0TxghhUlLl0XtXFRJF"
+            "user_adsf421512x3a4f5d"
         )
         .then(
             (result) => {
@@ -58,8 +54,8 @@ const ContactForm = () => {
     };
 
     return (
-        <div className={classes.container}>
-            <form className={classes.form} onSubmit={sendEmail}>
+        <div className="form">
+            <form className="form" onSubmit={sendEmail}>
                 <input type="hidden" name="contact_number" />
 
                 <input
@@ -78,13 +74,13 @@ const ContactForm = () => {
 
                 <input
                     type="text"
-                    placeholder="Your Message"
+                    placeholder="Type a Message"
                     name="message"
                     className={classes.textField}
                 />
                 <Button
                     type="submit"
-                    variant="contained"
+                    variant="outlined"
                     className={classes.sendButton}
                 >
                     Send

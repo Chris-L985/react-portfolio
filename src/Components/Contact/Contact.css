@@ -1,0 +1,14 @@
+.card {
+    display: flex;
+    border-radius: 6px;
+    border: solid 9px #b5b5b5;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    padding: 30px;
+    border-radius: 10px;
+    justify-content: left;
+    margin: 10%
+}

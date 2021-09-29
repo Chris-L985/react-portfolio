@@ -1,6 +1,7 @@
 .header {
-    margin-left: 50px;
-    margin-top: 25px;
+    padding: 5%;
+    border-top: 1px solid #bbb;
+    margin-top: 5%;
 }
 
 .project-container {
@@ -9,4 +10,39 @@
     max-width: 800px;
     max-height: 500px;
     margin-left: 15px;
+}
+
+.cardHeader {
+    justify-content: center;
+    color: rgb(19, 17, 17);
+    font-size: x-large;
+}
+
+.card {
+    max-width: 30%;
+    padding-right: auto;
+    border: 2px solid #bbb;
+}
+.card:hover {
+    box-shadow: rgba(255, 255, 255, 2);
+}
+
+.card-titles {
+    margin-right: auto;
+}
+
+.content {
+    font-size: 16px
+}
+
+.pictures {
+    border: 3px solid #b5b5b5;
+    height: 160px;
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        max-width: 100%
+    }
+    
 }

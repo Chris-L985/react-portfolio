@@ -1,6 +1,7 @@
 import React from "react";
 import { Home, Work, School, Send } from "@material-ui/icons";
 
+// array for navbar
 export const NavInfo = [
     {
         title: "About Me",

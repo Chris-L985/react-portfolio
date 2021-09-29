@@ -1,0 +1,33 @@
+.infoContainer {
+    font-family: "Lato", "sans-serif";
+    padding: 20px;
+}
+
+.aboutInfo {
+    color: #353535;
+    margin-top: 7px;
+    font-size: 25px;
+    padding-bottom: 70px;
+}
+
+.imgContainer {
+    position: relative;
+    background-image: url(../../assets/Me-at-the-park.jpeg);
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    border: 3px solid #1a1919;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.columnContainer {
+    padding: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+    .imageContainer {
+        height: 450px;
+    }
+    
+}
