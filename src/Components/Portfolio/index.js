@@ -10,6 +10,7 @@ import {
 import FirstSite from '../../assets/Projects/run-buddy.jpg';
 import FirstRefactor from '../../assets/Projects/digital-marketing-meeting.jpg';
 import FirstFullStack from '../../assets/Projects/fooder-pic.jpg';
+import FinalProject from '../../assets/Projects/Wayo-portfolio.jpg';
 
 import "./Portfolio.css";
 
@@ -120,6 +121,38 @@ const Portfolio = () => {
                 </div>
                 <a
                     href="https://powerful-crag-64537.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className={classes.linkDecor}
+                >
+                    <Button
+                        variant="outlined"
+                        size="Large"
+                        className={classes.linkButton}
+                        disableElevation
+                    >
+                        Link
+                    </Button>
+                </a>
+            </div>
+            
+            <div className="card mr-15px">
+                <div className="header">
+                    <CardMedia
+                        className="pictures"
+                        image={FinalProject}
+                        title="WAYO Clothing"
+                    />
+                    <div className="card-content">
+                        <div className="cardHeader">Wayo Clothing Brand</div>
+                        <div className="content">
+                            This application was my final Full stack application created in the bootcamp.
+                             and my first full stack application utilizing MERN.
+                        </div>
+                    </div>
+                </div>
+                <a
+                    href="https://murmuring-thicket-79577.herokuapp.com/"
                     target="_blank"
                     rel="noreferrer"
                     className={classes.linkDecor}
